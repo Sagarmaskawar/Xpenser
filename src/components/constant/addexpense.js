@@ -1,0 +1,33 @@
+export const category=[
+    {
+        id:'1',
+        title:'Education',
+        icon:require('../assets/education.png'),
+        color:'#A95EC2',
+    },
+    {
+        id:'2',
+        title:'Health-Care',
+        icon:require('../assets/healthcare.png'),
+        color:'#FF768A',
+    },
+    {
+        id:'3',
+        title:'Shopping',
+        icon:require('../assets/online-shopping.png'),
+        color:'#EC60AB',
+    },
+    {
+        id:'4',
+        title:'Food',
+        icon:require('../assets/fast-food.png'),
+        color:'#FF9E6D',
+    },
+    {
+        id:'5',
+        title:'Other',
+        icon:require('../assets/other.png'),
+        color:'#008080',
+    },
+   
+];

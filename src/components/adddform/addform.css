@@ -1,0 +1,100 @@
+.add-form{
+
+background: #71ccca;
+box-shadow:  20px 20px 60px #60adac,-20px -20px 60px #82ebe8;
+margin: 6px 12px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+flex: 1;
+min-height: 60vh;            
+}
+.form-item{
+    margin: 12px 0px;
+    padding: 4px;
+    width: 70%;
+    border-radius: 6px;
+    background-color: white;
+}
+.form-item label{
+    background-color: lightgray;
+    padding: 2px 12px;
+    border-radius: 0px 4px 4px 0px;
+}
+.form-item input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 70%;
+}
+.head-category{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.cat{
+    position: relative;
+    width: 40%;
+}
+.cat-dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 4px;
+}
+.cat-dropdown i{
+    display: flex;
+    align-items: center;
+}
+.cat-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+}
+.category-item{
+   display: flex;
+   justify-content: space-between;
+   width: 98%;
+   padding: 8px 0px;
+   cursor: pointer;
+}
+.category-item img{
+    height: 25px;
+    margin-right: 20px;
+}
+.add-form-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.add-form-button div{
+    border: 1px solid black;
+    display: flex;
+    padding: 2px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.add-form-button div i{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+@media screen and(max-width:1024px){
+    .form-item{
+        width: 100%;
+    }
+    .form-item input{
+        width: 70%;
+    }
+    .cat{
+        width: 80%;
+    }
+     .amount-input{
+        width: 50% !important;
+    }
+}

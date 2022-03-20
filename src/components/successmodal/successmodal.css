@@ -1,0 +1,38 @@
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.suimage{
+    height: 250px;
+    margin: 10px;
+}
+.add-home-btn{
+ border: 1px solid black;
+ border-radius: 6px;
+ padding: 4px 8px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.add-home-btn i{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 6px;
+}
+
+@media only screen and(max-width:1024px) {
+    .suimage{
+        height: 200px;
+        margin: 8px;
+    }
+}
+@media only screen and(max-width:512px) {
+    .suimage{
+        height: 150px;
+        margin: 6px;
+    }
+}
